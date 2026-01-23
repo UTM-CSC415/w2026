@@ -124,7 +124,7 @@ The course ends in a capstone research project where students produce a conferen
 
 **Project Guidelines**  
 Guidelines for the final project, including format requirements, evaluation criteria, and submission instructions.  
-[Download Guidelines]({{ '/assets/pdf/csc415_project_guideline.pdf' | relative_url }}){: .btn .btn-primary}
+[Download Guidelines]({{ '/assets/pdf/csc415_project_guidelines.pdf' | relative_url }}){: .btn .btn-primary}
 
 **Project Topics**  
 Suggested research topics and project ideas to help you get started on your final project.  
