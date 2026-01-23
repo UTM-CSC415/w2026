@@ -7,67 +7,69 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
     
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
     <style>
+      /* Quarto-inspired styling to match CSC2626 */
       :root {
-        --primary-color: #1a5490;
-        --sidebar-bg: #f8f9fa;
-        --text-color: #2c3e50;
-        --border-color: #e9ecef;
+        --quarto-body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        --quarto-heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        --quarto-code-font: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        --quarto-body-color: #222;
+        --quarto-body-bg: #fff;
+        --quarto-sidebar-bg: #f8f8f8;
+        --quarto-sidebar-fg: #555;
+        --quarto-sidebar-active: #447099;
+        --quarto-border-color: #dee2e6;
+        --quarto-link-color: #447099;
+        --quarto-link-hover-color: #2c5282;
       }
       
       * {
         box-sizing: border-box;
-      }
-      
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        line-height: 1.7;
-        color: var(--text-color);
-        background-color: #ffffff;
         margin: 0;
         padding: 0;
       }
       
-      .wrapper {
+      body {
+        font-family: var(--quarto-body-font);
+        font-size: 16px;
+        line-height: 1.6;
+        color: var(--quarto-body-color);
+        background-color: var(--quarto-body-bg);
+        margin: 0;
+        padding: 0;
+      }
+      
+      .quarto-container {
         display: flex;
         min-height: 100vh;
       }
       
-      /* Sidebar */
+      /* Sidebar - matches Quarto style */
       .sidebar {
-        width: 280px;
-        background-color: var(--sidebar-bg);
-        border-right: 1px solid var(--border-color);
-        padding: 2rem 1.5rem;
+        width: 250px;
+        background-color: var(--quarto-sidebar-bg);
+        border-right: 1px solid var(--quarto-border-color);
+        padding: 1.5rem 1rem;
         position: fixed;
         height: 100vh;
         overflow-y: auto;
-        z-index: 100;
+        z-index: 1000;
       }
       
-      .sidebar-header {
-        margin-bottom: 2rem;
-        padding-bottom: 1.5rem;
-        border-bottom: 2px solid var(--border-color);
+      .sidebar-title {
+        font-family: var(--quarto-heading-font);
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--quarto-body-color);
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
       }
       
-      .sidebar-header h1 {
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: var(--primary-color);
-        margin: 0;
-        line-height: 1.3;
-      }
-      
-      .sidebar-header .subtitle {
-        font-size: 0.9rem;
-        color: #6c757d;
-        margin-top: 0.5rem;
+      .sidebar-subtitle {
+        font-size: 0.875rem;
+        color: var(--quarto-sidebar-fg);
+        margin-bottom: 1.5rem;
+        line-height: 1.4;
       }
       
       .sidebar-nav {
@@ -77,142 +79,144 @@
       }
       
       .sidebar-nav li {
-        margin-bottom: 0.5rem;
+        margin: 0;
       }
       
       .sidebar-nav a {
         display: block;
-        padding: 0.75rem 1rem;
-        color: var(--text-color);
+        padding: 0.5rem 0.75rem;
+        color: var(--quarto-sidebar-fg);
         text-decoration: none;
-        border-radius: 6px;
-        transition: all 0.2s;
+        font-size: 0.9375rem;
+        border-radius: 4px;
+        transition: background-color 0.15s ease-in-out;
+      }
+      
+      .sidebar-nav a:hover {
+        background-color: rgba(68, 112, 153, 0.1);
+        color: var(--quarto-link-color);
+      }
+      
+      .sidebar-nav a.active {
+        background-color: var(--quarto-sidebar-active);
+        color: white;
         font-weight: 500;
       }
       
-      .sidebar-nav a:hover,
-      .sidebar-nav a.active {
-        background-color: var(--primary-color);
-        color: white;
-      }
-      
-      /* Main Content */
+      /* Main content */
       .main-content {
-        margin-left: 280px;
+        margin-left: 250px;
         flex: 1;
         padding: 3rem 4rem;
-        max-width: 1000px;
+        max-width: 900px;
       }
       
-      .page-header {
-        margin-bottom: 3rem;
-        padding-bottom: 1.5rem;
-        border-bottom: 2px solid var(--border-color);
-      }
-      
-      .page-header h1 {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: var(--primary-color);
-        margin: 0 0 0.5rem 0;
-      }
-      
-      .page-header .subtitle {
-        font-size: 1.1rem;
-        color: #6c757d;
-        font-weight: 400;
+      h1 {
+        font-family: var(--quarto-heading-font);
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--quarto-body-color);
+        margin-top: 0;
+        margin-bottom: 1rem;
+        line-height: 1.2;
       }
       
       h2 {
-        font-size: 1.75rem;
+        font-family: var(--quarto-heading-font);
+        font-size: 1.5rem;
         font-weight: 600;
-        color: var(--primary-color);
-        margin-top: 3rem;
-        margin-bottom: 1.5rem;
+        color: var(--quarto-body-color);
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        line-height: 1.3;
         padding-bottom: 0.5rem;
-        border-bottom: 2px solid var(--border-color);
+        border-bottom: 1px solid var(--quarto-border-color);
       }
       
       h3 {
-        font-size: 1.4rem;
+        font-family: var(--quarto-heading-font);
+        font-size: 1.25rem;
         font-weight: 600;
-        color: var(--text-color);
+        color: var(--quarto-body-color);
         margin-top: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.75rem;
+        line-height: 1.3;
       }
       
       h4 {
-        font-size: 1.2rem;
+        font-family: var(--quarto-heading-font);
+        font-size: 1.1rem;
         font-weight: 600;
-        color: var(--text-color);
+        color: var(--quarto-body-color);
         margin-top: 1.5rem;
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.3;
       }
       
       p {
-        margin-bottom: 1.25rem;
+        margin-bottom: 1rem;
+        line-height: 1.7;
       }
       
       ul, ol {
-        margin-bottom: 1.25rem;
-        padding-left: 2rem;
+        margin-bottom: 1rem;
+        padding-left: 1.5rem;
       }
       
       li {
         margin-bottom: 0.5rem;
+        line-height: 1.6;
       }
       
       a {
-        color: var(--primary-color);
+        color: var(--quarto-link-color);
         text-decoration: none;
       }
       
       a:hover {
+        color: var(--quarto-link-hover-color);
         text-decoration: underline;
       }
       
-      .table {
-        margin: 2rem 0;
+      table {
         width: 100%;
+        margin: 1.5rem 0;
+        border-collapse: collapse;
+        font-size: 0.9375rem;
       }
       
-      .table thead th {
-        background-color: var(--primary-color);
-        color: white;
+      table thead {
+        border-bottom: 2px solid var(--quarto-border-color);
+      }
+      
+      table th {
+        text-align: left;
         font-weight: 600;
-        padding: 1rem;
+        padding: 0.75rem;
+        color: var(--quarto-body-color);
+        border-bottom: 2px solid var(--quarto-border-color);
+      }
+      
+      table td {
+        padding: 0.75rem;
+        border-bottom: 1px solid var(--quarto-border-color);
+      }
+      
+      table tbody tr:hover {
+        background-color: rgba(0, 0, 0, 0.02);
+      }
+      
+      hr {
         border: none;
-      }
-      
-      .table tbody td {
-        padding: 0.75rem 1rem;
-        border-top: 1px solid var(--border-color);
-      }
-      
-      .table tbody tr:hover {
-        background-color: #f8f9fa;
-      }
-      
-      .card {
-        border: 1px solid var(--border-color);
-        border-radius: 8px;
-        padding: 1.5rem;
-        margin-bottom: 1.5rem;
-        background-color: #f8f9fa;
-      }
-      
-      .card-header {
-        font-weight: 600;
-        color: var(--primary-color);
-        margin-bottom: 1rem;
-        font-size: 1.1rem;
+        border-top: 1px solid var(--quarto-border-color);
+        margin: 2rem 0;
       }
       
       .alert {
-        padding: 1.25rem;
-        border-radius: 8px;
+        padding: 1rem 1.25rem;
         margin: 1.5rem 0;
         border-left: 4px solid;
+        border-radius: 4px;
       }
       
       .alert-warning {
@@ -228,67 +232,52 @@
       }
       
       .btn {
-        padding: 0.5rem 1.25rem;
-        border-radius: 6px;
-        font-weight: 500;
-        text-decoration: none;
         display: inline-block;
-        transition: all 0.2s;
+        padding: 0.5rem 1rem;
         margin: 0.25rem 0.5rem 0.25rem 0;
-      }
-      
-      .btn-primary {
-        background-color: var(--primary-color);
+        background-color: var(--quarto-link-color);
         color: white;
-        border: none;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 0.9375rem;
+        font-weight: 500;
+        transition: background-color 0.15s ease-in-out;
       }
       
-      .btn-primary:hover {
-        background-color: #0d3a5f;
+      .btn:hover {
+        background-color: var(--quarto-link-hover-color);
         color: white;
         text-decoration: none;
       }
       
-      a.btn {
-        display: inline-block;
+      code {
+        font-family: var(--quarto-code-font);
+        font-size: 0.875em;
+        background-color: #f5f5f5;
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
       }
       
-      hr {
-        border: none;
-        border-top: 2px solid var(--border-color);
-        margin: 3rem 0;
+      strong {
+        font-weight: 600;
       }
       
-      .info-box {
-        background-color: #f8f9fa;
-        border-left: 4px solid var(--primary-color);
-        padding: 1.5rem;
-        margin: 2rem 0;
-        border-radius: 4px;
+      em {
+        font-style: italic;
       }
       
       .footer {
         margin-top: 4rem;
         padding-top: 2rem;
-        border-top: 2px solid var(--border-color);
+        border-top: 1px solid var(--quarto-border-color);
         text-align: center;
-        color: #6c757d;
-        font-size: 0.9rem;
+        color: var(--quarto-sidebar-fg);
+        font-size: 0.875rem;
       }
       
       /* Responsive */
-      @media (max-width: 992px) {
-        .sidebar {
-          width: 240px;
-        }
-        .main-content {
-          margin-left: 240px;
-          padding: 2rem 2.5rem;
-        }
-      }
-      
       @media (max-width: 768px) {
-        .wrapper {
+        .quarto-container {
           flex-direction: column;
         }
         .sidebar {
@@ -296,26 +285,27 @@
           position: relative;
           height: auto;
           border-right: none;
-          border-bottom: 1px solid var(--border-color);
+          border-bottom: 1px solid var(--quarto-border-color);
         }
         .main-content {
           margin-left: 0;
           padding: 2rem 1.5rem;
         }
-        .page-header h1 {
-          font-size: 2rem;
+        h1 {
+          font-size: 1.75rem;
+        }
+        h2 {
+          font-size: 1.35rem;
         }
       }
     </style>
   </head>
   <body>
-    <div class="wrapper">
+    <div class="quarto-container">
       <!-- Sidebar -->
       <aside class="sidebar">
-        <div class="sidebar-header">
-          <h1>CSC415</h1>
-          <div class="subtitle">Introduction to Reinforcement Learning</div>
-        </div>
+        <div class="sidebar-title">CSC415</div>
+        <div class="sidebar-subtitle">Introduction to Reinforcement Learning</div>
         <nav>
           <ul class="sidebar-nav">
             <li><a href="#overview" class="active">Overview</a></li>
@@ -340,8 +330,6 @@
       </main>
     </div>
     
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
       // Update active nav link on scroll
       document.querySelectorAll('.sidebar-nav a').forEach(link => {
