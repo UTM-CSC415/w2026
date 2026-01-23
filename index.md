@@ -4,99 +4,29 @@ title: CSC415 - Introduction to Reinforcement Learning
 permalink: /
 ---
 
-<div class="container mt-4">
-<div class="card mb-4 shadow-sm">
-  <div class="card-body">
-    <h2 class="card-title mb-3">Welcome to CSC415H5S</h2>
-    <p class="card-text lead">
-      <strong>Introduction to Reinforcement Learning</strong><br>
-      <em>Winter 2026 • University of Toronto Mississauga</em>
-    </p>
-    <p class="card-text">
-      Reinforcement learning is a powerful paradigm for modeling autonomous and intelligent agents interacting with the environment, 
-      and it is relevant to an enormous range of tasks, including robotics, game playing, consumer modeling and healthcare. 
-      This course provides an introduction to reinforcement learning intelligence, focusing on the study and design of agents 
-      that interact with a complex, uncertain world to achieve a goal. We will study agents that can make near-optimal decisions 
-      in a timely manner with incomplete information and limited computational resources.
-    </p>
-    <p class="card-text">
-      <strong>The course will cover (among other topics):</strong>
-    </p>
-    <ul class="card-text">
-      <li><strong>Markov Decision Processes (MDPs)</strong></li>
-      <li><strong>Reinforcement Learning</strong> algorithms</li>
-      <li><strong>Planning</strong> methods</li>
-      <li><strong>Function Approximation</strong> (online supervised learning)</li>
-    </ul>
-    <p class="card-text">
-      <em>Note: The topics listed above represent a limited selection from the course. Additional topics will be covered throughout the semester.</em>
-    </p>
-  </div>
+<div class="page-header" id="overview">
+  <h1>Winter 2026 - CSC415: Introduction to Reinforcement Learning</h1>
+  <div class="subtitle">University of Toronto Mississauga</div>
 </div>
 
-<hr class="my-5" id="course-info">
+## Course Overview
 
-## Course Information
+Reinforcement learning is a powerful paradigm for modeling autonomous and intelligent agents interacting with the environment, and it is relevant to an enormous range of tasks, including robotics, game playing, consumer modeling and healthcare. This course provides an introduction to reinforcement learning intelligence, focusing on the study and design of agents that interact with a complex, uncertain world to achieve a goal. We will study agents that can make near-optimal decisions in a timely manner with incomplete information and limited computational resources.
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="card mb-3">
-      <div class="card-header">
-        <h5 class="mb-0"><i class="fas fa-calendar-alt"></i> Schedule</h5>
-      </div>
-      <div class="card-body">
-        <p class="mb-2"><strong>Lecture (LEC0101):</strong><br>
-        Wednesday, 11:00 AM - 1:00 PM<br>
-        <em>In Person: DH 2070</em></p>
-        
-        <p class="mb-0"><strong>Practical (PRA0101):</strong><br>
-        Thursday, 7:00 PM - 8:00 PM<br>
-        <em>In Person: DH 2026</em></p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-md-6">
-    <div class="card mb-3">
-      <div class="card-header">
-        <h5 class="mb-0"><i class="fas fa-user-tie"></i> Instructor</h5>
-      </div>
-      <div class="card-body">
-        <p class="mb-2"><strong>Dr. Ameya Pore</strong></p>
-        
-        <p class="mb-0"><strong>Office Hours:</strong><br>
-        Wednesday, 6:00 PM - 7:00 PM<br>
-        <em>In Person: MN3110</em></p>
-      </div>
-    </div>
-  </div>
-</div>
+This course will broadly cover the following areas:
 
-<div class="row">
-  <div class="col-md-12">
-    <div class="card mb-3">
-      <div class="card-header">
-        <h5 class="mb-0"><i class="fas fa-users"></i> Teaching Assistants</h5>
-      </div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-6">
-            <p class="mb-2"><strong>Deniz Jafari</strong><br>
-            <strong>Office Hours:</strong><br>
-            <em>Tuesday 5:15pm-6:15pm Online zoom</em></p>
-          </div>
-          <div class="col-md-6">
-            <p class="mb-2"><strong>Quentin Clark</strong><br>
-            <strong>Office Hours:</strong><br>
-            <em>Tuesday 5:15pm-6:15pm Online zoom</em></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+* **Markov Decision Processes (MDPs)**
+* **Reinforcement Learning** algorithms
+* **Planning** methods
+* **Function Approximation** (online supervised learning)
 
-<hr class="my-5">
+### Prerequisites
+
+You need to be comfortable with: introductory machine learning concepts (such as from CSC311H5 or equivalent), linear algebra, basic multivariable calculus, intro to probability. You also need to have strong programming skills in Python.
+
+**Prerequisites:** CSC311H5  
+**Recommended:** CSC413  
+**Credit Value:** 0.5
 
 ### Learning Outcomes
 
@@ -108,105 +38,69 @@ By the end of this course, students will be able to:
 4. **Critically evaluate** the work of peers
 5. **Effectively defend** technical decisions through oral presentations
 
-### Prerequisites
+---
 
-- **Prerequisites:** CSC311H5
-- **Recommended:** CSC413
-- **Credit Value:** 0.5
+## Course Information {#course-info}
 
-<hr class="my-5" id="materials">
+### Course Delivery Details
 
-## Course Materials
+* **Lectures:** In-person, Wednesdays @ 11:00 AM - 1:00 PM ET, DH 2070
+* **Practicals:** In-person, Thursdays @ 7:00 PM - 8:00 PM ET, DH 2026
+* **Announcements:** Will be posted on this website
+
+### Instructor
+
+**Dr. Ameya Pore**
+
+**Office Hours:**  
+Wednesday, 6:00 PM - 7:00 PM  
+_In Person: MN3110_
+
+### Teaching Assistants
+
+**Deniz Jafari**  
+**Office Hours:**  
+_Tuesday 5:15pm-6:15pm Online zoom_
+
+**Quentin Clark**  
+**Office Hours:**  
+_Tuesday 5:15pm-6:15pm Online zoom_
+
+---
+
+## Course Materials {#materials}
 
 ### Required Textbook
 
-<div class="card mb-3">
-  <div class="card-body">
-    <h5 class="card-title">Reinforcement Learning: An Introduction (2nd Edition)</h5>
-    <p class="card-text mb-2">
-      <strong>Authors:</strong> Richard S. Sutton and Andrew G. Barto<br>
-      <strong>Available online:</strong> <a href="http://incompleteideas.net/book/" target="_blank">http://incompleteideas.net/book/</a>
-    </p>
-    <p class="card-text mb-0">
-      <small class="text-muted">
-        This textbook covers foundational theory (MDPs, Bellman equations, TD learning) extensively. 
-        Best for Weeks 1–3 of the syllabus (Foundations, MC, TD).
-      </small>
-    </p>
-  </div>
-</div>
+**Reinforcement Learning: An Introduction (2nd Edition)**
+
+**Authors:** Richard S. Sutton and Andrew G. Barto  
+**Available online:** [http://incompleteideas.net/book/](http://incompleteideas.net/book/)
+
+This textbook covers foundational theory (MDPs, Bellman equations, TD learning) extensively. Best for Weeks 1–3 of the syllabus (Foundations, MC, TD).
 
 ### Additional Resources
 
 The course draws inspiration from several excellent open-source courses and resources:
 
-- **[UCL Course on Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)** by David Silver (DeepMind)
-- **[Stanford CS234: Introduction to Reinforcement Learning](https://www.youtube.com/watch?v=WsvFL-LjA6U&list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX)** by Emma Brunskill
-- **[Stanford CS224R: Deep Reinforcement Learning](https://cs224r.stanford.edu/)** by Chelsea Finn
-- **[Introduction to Reinforcement Learning](https://amfarahmand.github.io/IntroRL/)** by Amir-massoud Farahmand
-
-<hr class="my-5">
-
-## Assessment & Grading
-
-<div class="table-responsive">
-  <table class="table table-hover">
-    <thead class="thead-light">
-      <tr>
-        <th>Assessment</th>
-        <th>Weight</th>
-        <th>Due Date</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Laboratory Exercises</strong></td>
-        <td>25%</td>
-        <td>Various dates</td>
-        <td>6 lab exercises (top 5 count). Hands-on programming assignments in Python using Gymnasium and PyTorch. Implement algorithms from tabular methods to DQN and PPO.</td>
-      </tr>
-      <tr class="table-warning">
-        <td><strong>Midterm Exam</strong></td>
-        <td>15%</td>
-        <td>Jan 29, 2026</td>
-        <td><em>Written test covering foundational concepts from Weeks 1-4: MDPs, Bellman Equations, Q-Learning, and Policy Gradients.</em></td>
-      </tr>
-      <tr>
-        <td><strong>Assignment 1</strong></td>
-        <td>10%</td>
-        <td>Feb 13, 2026</td>
-        <td>Literature review of assigned papers (2-3 papers) along with code implementation of one of the papers.</td>
-      </tr>
-      <tr>
-        <td><strong>Project Proposal</strong></td>
-        <td>5%</td>
-        <td>Feb 24, 2026</td>
-        <td>Concise document outlining selected research topic, intended environment/dataset, and hypothesis.</td>
-      </tr>
-      <tr>
-        <td><strong>Final Project Paper</strong></td>
-        <td>25%</td>
-        <td>Mar 24, 2026</td>
-        <td>Comprehensive research paper in conference format (e.g., ICLR style) detailing methodology, experimental setup, results, and discussion.</td>
-      </tr>
-      <tr>
-        <td><strong>Assignment 2 (Peer Review)</strong></td>
-        <td>10%</td>
-        <td>Mar 31, 2026</td>
-        <td>Critical evaluation of peer project reports, providing constructive feedback on technical correctness, clarity, and novelty.</td>
-      </tr>
-      <tr>
-        <td><strong>Final Project Presentation</strong></td>
-        <td>10%</td>
-        <td>Apr 2, 2026</td>
-        <td>10-minute oral presentation of research findings, methodology, and analysis.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+* **[UCL Course on Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)** by David Silver (DeepMind)
+* **[Stanford CS234: Introduction to Reinforcement Learning](https://www.youtube.com/watch?v=WsvFL-LjA6U&list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX)** by Emma Brunskill
+* **[Stanford CS224R: Deep Reinforcement Learning](https://cs224r.stanford.edu/)** by Chelsea Finn
+* **[Introduction to Reinforcement Learning](https://amfarahmand.github.io/IntroRL/)** by Amir-massoud Farahmand
 
 ---
+
+## Grading {#grading}
+
+| Assessment | Weight | Due Date | Description |
+|------------|--------|----------|-------------|
+| **Laboratory Exercises** | 25% | Various dates | 6 lab exercises (top 5 count). Hands-on programming assignments in Python using Gymnasium and PyTorch. Implement algorithms from tabular methods to DQN and PPO. |
+| **Midterm Exam** | 15% | Jan 29, 2026 | _Written test covering foundational concepts from Weeks 1-4: MDPs, Bellman Equations, Q-Learning, and Policy Gradients._ |
+| **Assignment 1** | 10% | Feb 13, 2026 | Literature review of assigned papers (2-3 papers) along with code implementation of one of the papers. |
+| **Project Proposal** | 5% | Feb 24, 2026 | Concise document outlining selected research topic, intended environment/dataset, and hypothesis. |
+| **Final Project Paper** | 25% | Mar 24, 2026 | Comprehensive research paper in conference format (e.g., ICLR style) detailing methodology, experimental setup, results, and discussion. |
+| **Assignment 2 (Peer Review)** | 10% | Mar 31, 2026 | Critical evaluation of peer project reports, providing constructive feedback on technical correctness, clarity, and novelty. |
+| **Final Project Presentation** | 10% | Apr 2, 2026 | 10-minute oral presentation of research findings, methodology, and analysis. |
 
 ### Tutorial Schedule
 
@@ -223,199 +117,70 @@ The course draws inspiration from several excellent open-source courses and reso
 | Skill 2 | Mar 19, 2026 | Not graded | How to write a paper |
 | Demo/Presentation | Mar 26, 2026 |  | Project presentation/Real Robot Demos |
 
-<hr class="my-5" id="schedule">
+---
 
-## Course Schedule
+## Schedule {#schedule}
 
-<div class="card mb-4">
-  <div class="card-header">
-    <h5 class="mb-0"><i class="fas fa-book"></i> Weekly Schedule</h5>
-  </div>
-  <div class="card-body">
-    <div class="table-responsive">
-      <table class="table table-sm">
-        <thead>
-          <tr>
-            <th>Week</th>
-            <th>Date</th>
-            <th>Topic</th>
-            <th>Key Concepts</th>
-            <th>Lecture Slides</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>1</strong></td>
-            <td>Jan 7</td>
-            <td>Foundations of Reinforcement Learning</td>
-            <td>Agent–environment loop, MDP structure, value functions, Bellman equations, biological motivation</td>
-            <td><a href="{{ '/assets/lectures/lecture1_compressed.pdf' | relative_url }}">lecture1</a></td>
-          </tr>
-          <tr>
-            <td><strong>2</strong></td>
-            <td>Jan 14</td>
-            <td>Dynamic programming</td>
-            <td>Policy evaluation, Policy iteration, Value iteration</td>
-            <td><a href="{{ '/assets/lectures/lecture2.pdf' | relative_url }}">lecture2</a></td>
-          </tr>
-          <tr>
-            <td><strong>3</strong></td>
-            <td>Jan 21</td>
-            <td>Monte Carlo & Temporal-Difference & Q-Learning</td>
-            <td>MC prediction (first/every visit), TD(0), TD(λ), SARSA, Q-Learning</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>4</strong></td>
-            <td>Jan 28</td>
-            <td>Function Approximation, DQN & Policy Gradients</td>
-            <td>Deep Q-Networks (DQN); Policy-Gradient Theorem, REINFORCE, Actor-Critic methods</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>5</strong></td>
-            <td>Feb 4</td>
-            <td>Policy Gradient Methods (PPO)</td>
-            <td>REINFORCE → A2C → PPO, trust-region optimization, GAE, training stability</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>6</strong></td>
-            <td>Feb 11</td>
-            <td>Exploration in RL</td>
-            <td>Entropy regularization, intrinsic motivation (ICM, RND), robustness and generalization</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>7</strong></td>
-            <td>Feb 25</td>
-            <td>Regularization and Representation Learning</td>
-            <td>Contrastive learning (CURL, BYOL-Explore), predictive state representations, auxiliary tasks</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>8</strong></td>
-            <td>Mar 4</td>
-            <td>RL for Robotics (Embodied RL)</td>
-            <td>Continuous control policies, sim-to-real transfer, domain randomization, hybrid IL + RL strategies</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>9</strong></td>
-            <td>Mar 11</td>
-            <td>World Models & Latent Planning</td>
-            <td>Latent dynamics models (VAE, RSSM, Dreamer), imagination rollouts, planning in latent space</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>10</strong></td>
-            <td>Mar 18</td>
-            <td>RL for LLMs and Alignment (RLHF)</td>
-            <td>Preference modeling, reward models, PPO/DPO/RLAIF, alignment issues, reward mis-specification</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>11</strong></td>
-            <td>Mar 28</td>
-            <td>Sequence Modelling in RL</td>
-            <td>Recurrent neural networks (RNNs, LSTMs, GRUs) for RL, Transformers in RL, Decision Transformers, trajectory transformers, history encoding, temporal dependencies, memory-augmented RL</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>12</strong></td>
-            <td>Apr 2</td>
-            <td>Final Project Presentations</td>
-            <td>Student presentations of term projects (oral defense)</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><strong>13</strong> <em>(Optional)</em></td>
-            <td>Apr 9</td>
-            <td>Safe-RL and Hierarchical RL</td>
-            <td>Safe MDPs, constraint optimization, Lyapunov-based safety, CPO, risk-sensitive criteria, hierarchical task decomposition, options framework, HRL architectures</td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
+| Week | Date | Topic | Key Concepts | Lecture Slides |
+|------|------|-------|--------------|----------------|
+| **1** | Jan 7 | Foundations of Reinforcement Learning | Agent–environment loop, MDP structure, value functions, Bellman equations, biological motivation | [lecture1]({{ '/assets/lectures/lecture1_compressed.pdf' | relative_url }}) |
+| **2** | Jan 14 | Dynamic programming | Policy evaluation, Policy iteration, Value iteration | [lecture2]({{ '/assets/lectures/lecture2.pdf' | relative_url }}) |
+| **3** | Jan 21 | Monte Carlo & Temporal-Difference & Q-Learning | MC prediction (first/every visit), TD(0), TD(λ), SARSA, Q-Learning | |
+| **4** | Jan 28 | Function Approximation, DQN & Policy Gradients | Deep Q-Networks (DQN); Policy-Gradient Theorem, REINFORCE, Actor-Critic methods | |
+| **5** | Feb 4 | Policy Gradient Methods (PPO) | REINFORCE → A2C → PPO, trust-region optimization, GAE, training stability | |
+| **6** | Feb 11 | Exploration in RL | Entropy regularization, intrinsic motivation (ICM, RND), robustness and generalization | |
+| **7** | Feb 25 | Regularization and Representation Learning | Contrastive learning (CURL, BYOL-Explore), predictive state representations, auxiliary tasks | |
+| **8** | Mar 4 | RL for Robotics (Embodied RL) | Continuous control policies, sim-to-real transfer, domain randomization, hybrid IL + RL strategies | |
+| **9** | Mar 11 | World Models & Latent Planning | Latent dynamics models (VAE, RSSM, Dreamer), imagination rollouts, planning in latent space | |
+| **10** | Mar 18 | RL for LLMs and Alignment (RLHF) | Preference modeling, reward models, PPO/DPO/RLAIF, alignment issues, reward mis-specification | |
+| **11** | Mar 28 | Sequence Modelling in RL | Recurrent neural networks (RNNs, LSTMs, GRUs) for RL, Transformers in RL, Decision Transformers, trajectory transformers, history encoding, temporal dependencies, memory-augmented RL | |
+| **12** | Apr 2 | Final Project Presentations | Student presentations of term projects (oral defense) | |
+| **13** _(Optional)_ | Apr 9 | Safe-RL and Hierarchical RL | Safe MDPs, constraint optimization, Lyapunov-based safety, CPO, risk-sensitive criteria, hierarchical task decomposition, options framework, HRL architectures | |
 
-<hr class="my-5">
+---
 
-## Project Information
-
-### Final Project
+## Final Project {#project}
 
 The course culminates in a capstone research project where students produce a conference-level paper. This is the primary deliverable for the course.
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="card mb-3">
-      <div class="card-header bg-primary text-white">
-        <h6 class="mb-0"><i class="fas fa-file-alt"></i> Project Guidelines</h6>
-      </div>
-      <div class="card-body">
-        <p class="card-text">Comprehensive guidelines for the final project, including format requirements, evaluation criteria, and submission instructions.</p>
-        <a href="{{ '/assets/pdf/csc415_project_guideline.pdf' | relative_url }}" class="btn btn-sm btn-primary" target="_blank">
-          <i class="fas fa-download"></i> Download Guidelines
-        </a>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-md-6">
-    <div class="card mb-3">
-      <div class="card-header bg-success text-white">
-        <h6 class="mb-0"><i class="fas fa-lightbulb"></i> Project Topics</h6>
-      </div>
-      <div class="card-body">
-        <p class="card-text">Suggested research topics and project ideas to help you get started on your final project.</p>
-        <a href="{{ '/assets/pdf/csc415_project_topics.pdf' | relative_url }}" class="btn btn-sm btn-success" target="_blank">
-          <i class="fas fa-download"></i> View Topics
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+### Project Resources
 
-<div class="card mb-3">
-  <div class="card-header bg-info text-white">
-    <h6 class="mb-0"><i class="fas fa-cogs"></i> Simulation Setup</h6>
-  </div>
-  <div class="card-body">
-    <p class="card-text">Instructions for setting up simulation environments for your RL experiments, including Gymnasium, dm_control, and other relevant frameworks.</p>
-    <a href="{{ '/assets/pdf/csc415_simulation_setup.pdf' | relative_url }}" class="btn btn-sm btn-info" target="_blank">
-      <i class="fas fa-download"></i> Download Setup Guide
-    </a>
-  </div>
-</div>
+**Project Guidelines**  
+Comprehensive guidelines for the final project, including format requirements, evaluation criteria, and submission instructions.  
+[Download Guidelines]({{ '/assets/pdf/csc415_project_guideline.pdf' | relative_url }}){: .btn .btn-primary}
+
+**Project Topics**  
+Suggested research topics and project ideas to help you get started on your final project.  
+[View Topics]({{ '/assets/pdf/csc415_project_topics.pdf' | relative_url }}){: .btn .btn-primary}
+
+**Simulation Setup**  
+Instructions for setting up simulation environments for your RL experiments, including Gymnasium, dm_control, and other relevant frameworks.  
+[Download Setup Guide]({{ '/assets/pdf/csc415_simulation_setup.pdf' | relative_url }}){: .btn .btn-primary}
 
 ### Project Timeline
 
-- **Feb 24, 2026:** Project Proposal Due (5%)
-- **Mar 24, 2026:** Final Project Paper Due (25%)
-- **Mar 31, 2026:** Peer Review Due (10%)
-- **Apr 2, 2026:** Final Project Presentation (10%)
+* **Feb 24, 2026:** Project Proposal Due (5%)
+* **Mar 24, 2026:** Final Project Paper Due (25%)
+* **Mar 31, 2026:** Peer Review Due (10%)
+* **Apr 2, 2026:** Final Project Presentation (10%)
 
-<hr class="my-5">
+---
 
-## Course Policies
+## Course Policies {#policies}
 
 ### Late Submission Policy
 
-<div class="alert alert-warning" role="alert">
-  <h5 class="alert-heading"><i class="fas fa-exclamation-triangle"></i> Important Deadlines</h5>
-  <hr>
-  <p class="mb-2"><strong>Laboratory Exercises:</strong> Late submissions are <strong>prohibited</strong>. No late work will be accepted for the laboratory component.</p>
-  <p class="mb-0"><strong>Assignments and Project Deliverables:</strong> Late submissions permitted for a maximum of <strong>3 days</strong> following the deadline. A penalty of <strong>15% per day</strong> will be deducted. Submissions made more than 3 days after the deadline will not be accepted.</p>
+<div class="alert alert-warning">
+  <strong>Important Deadlines</strong><br>
+  <strong>Laboratory Exercises:</strong> Late submissions are <strong>prohibited</strong>. No late work will be accepted for the laboratory component.<br>
+  <strong>Assignments and Project Deliverables:</strong> Late submissions permitted for a maximum of <strong>3 days</strong> following the deadline. A penalty of <strong>15% per day</strong> will be deducted. Submissions made more than 3 days after the deadline will not be accepted.
 </div>
 
 ### Attendance
 
-Success in this course is highly correlated with active participation in both lectures and tutorial sessions. While attendance is not strictly graded for standard lectures, students are strongly encouraged to attend in person. 
+Success in this course is highly correlated with active participation in both lectures and tutorial sessions. While attendance is not strictly graded for standard lectures, students are strongly encouraged to attend in person.
 
-<div class="alert alert-info" role="alert">
+<div class="alert alert-info">
   <strong>Note:</strong> Attendance is <strong>mandatory</strong> for the Final Project Presentations in Week 12, as peer interaction is a core learning outcome.
 </div>
 
@@ -427,44 +192,30 @@ Please familiarize yourself with the [Code of Behaviour on Academic Matters](htt
 
 ### Generative AI Policy
 
-<div class="card mb-3">
-  <div class="card-body">
-    <h5 class="card-title">AI Tool Usage Guidelines</h5>
-    <p class="card-text">
-      Students are <strong>permitted</strong> to use AI tools (e.g., ChatGPT, Claude, GitHub Copilot) as learning aids and to assist in assignments. However:
-    </p>
-    <ul>
-      <li>Students remain <strong>ultimately accountable</strong> for all work submitted</li>
-      <li><strong>Citation is required:</strong> Any content, code, or ideas produced by AI must be explicitly cited</li>
-      <li>Include an "AI Statement" at the end of assignments detailing which tools were used and for what purpose</li>
-      <li><strong>No grading penalty</strong> for declared use of AI tools, provided they are cited correctly</li>
-      <li><strong>Midterm Exam:</strong> Closed environment - use of AI tools/electronic devices is strictly prohibited</li>
-    </ul>
-  </div>
-</div>
+**AI Tool Usage Guidelines**
+
+Students are **permitted** to use AI tools (e.g., ChatGPT, Claude, GitHub Copilot) as learning aids and to assist in assignments. However:
+
+* Students remain **ultimately accountable** for all work submitted
+* **Citation is required:** Any content, code, or ideas produced by AI must be explicitly cited
+* Include an "AI Statement" at the end of assignments detailing which tools were used and for what purpose
+* **No grading penalty** for declared use of AI tools, provided they are cited correctly
+* **Midterm Exam:** Closed environment - use of AI tools/electronic devices is strictly prohibited
 
 ### Accommodations
 
-- **Religious Accommodations:** Information available at the [University's Policy on Scheduling](https://www.viceprovoststudents.utoronto.ca/student-resources/rights-responsibilities/accommodation-religious/)
-- **Temporary Absence:** Students may use the ACORN Absence Declaration Tool for absences up to 7 consecutive days
-- **Equity and Academic Rights:** The University of Toronto is committed to equity, meaningful inclusion, and respect for diversity
+* **Religious Accommodations:** Information available at the [University's Policy on Scheduling](https://www.viceprovoststudents.utoronto.ca/student-resources/rights-responsibilities/accommodation-religious/)
+* **Temporary Absence:** Students may use the ACORN Absence Declaration Tool for absences up to 7 consecutive days
+* **Equity and Academic Rights:** The University of Toronto is committed to equity, meaningful inclusion, and respect for diversity
 
-<hr class="my-5" id="contact">
+---
 
-## Contact
+## Contact {#contact}
 
 For questions about the course:
 
 1. **Check this website** first
 2. **Attend office hours:** Wednesday, 6:00 PM - 7:00 PM (MN3110)
 3. **Email the instructor:** amey.pore@utoronto.ca
-   - Please include **[CSC415]** in the subject line
-   - Allow 24-48 hours for response during regular business hours
-
-<hr class="my-5">
-
-<div class="text-center text-muted mt-4">
-  <small>Last updated: {{ site.time | date: "%B %d, %Y" }}</small>
-</div>
-
-</div>
+   * Please include **[CSC415]** in the subject line
+   * Allow 24-48 hours for response during regular business hours
