@@ -47,7 +47,7 @@ By the end of this course, students will be able to:
 
 ### Instructor
 
-**Dr. Ameya Pore**
+**Dr. Amey Pore**
 
 **Office Hours:**  
 Wednesday, 6:00 PM - 7:00 PM  
@@ -62,35 +62,6 @@ _Tuesday 5:15pm-6:15pm Online zoom_
 **Quentin Clark**  
 **Office Hours:**  
 _Tuesday 5:15pm-6:15pm Online zoom_
-
----
-
-## Grading {#grading}
-
-| Assessment | Weight | Due Date | Description |
-|------------|--------|----------|-------------|
-| **Laboratory Exercises** | 25% | Various dates | 6 lab exercises (top 5 count). Programming assignments in Python using Gymnasium and PyTorch. Implement algorithms from tabular methods to DQN and PPO. |
-| **Midterm Exam** | 15% | Jan 29, 2026 | _Written test covering foundational concepts from Weeks 1-4: MDPs, Bellman Equations, Q-Learning, and Policy Gradients._ |
-| **Assignment 1** | 10% | Feb 13, 2026 | Literature review of assigned papers (2-3 papers) along with code implementation of one of the papers. |
-| **Project Proposal** | 5% | Feb 24, 2026 | Concise document outlining selected research topic, intended environment/dataset, and hypothesis. |
-| **Final Project Paper** | 25% | Mar 24, 2026 | Research paper in conference format (e.g., ICLR style) detailing methodology, experimental setup, results, and discussion. |
-| **Assignment 2 (Peer Review)** | 10% | Mar 31, 2026 | Critical evaluation of peer project reports, providing constructive feedback on technical correctness, clarity, and novelty. |
-| **Final Project Presentation** | 10% | Apr 2, 2026 | 10-minute oral presentation of research findings, methodology, and analysis. |
-
-### Tutorial Schedule
-
-| Lab | Lab Date | Due Date | Topic |
-|-----|----------|----------|-------|
-| Lab 1 | Jan 15, 2026 | Jan 20, 2026 | Tabular value-iteration agent on Gridworld |
-| Lab 2 | Jan 23, 2026 | Jan 27, 2026 | Compare MC and TD methods; Q-Learning with ε-greedy |
-| Test | Jan 29, 2026 |  | 90mins test |
-| Skill 1 | Feb 5, 2026 | Not graded | How to review a paper |
-| Lab 3 | Feb 12, 2026 | Feb 17, 2026 | Implement DQN in Gymnasium (CartPole or MountainCar) |
-| Lab 4 | Feb 26, 2026 | Mar 3, 2026 | Train PPO agent on Pendulum-v1 (dm_control) |
-| Lab 5 | Mar 5, 2026 | Mar 10, 2026 | RLHF: LLM fine-tuning with RL |
-| Lab 6 | Mar 12, 2026 | Mar 17, 2026 | Train CNN encoder on Atari frames; visualize latent space/RL for LLM |
-| Skill 2 | Mar 19, 2026 | Not graded | How to write a paper |
-| Demo/Presentation | Mar 26, 2026 |  | Project presentation/Real Robot Demos |
 
 ---
 
@@ -114,9 +85,40 @@ _Tuesday 5:15pm-6:15pm Online zoom_
 
 ---
 
+## Grading {#grading}
+
+| Assessment | Weight | Due Date | Description |
+|------------|--------|----------|-------------|
+| **Laboratory Exercises** | 25% | Various dates | 6 lab exercises (top 5 count). Programming assignments in Python using Gymnasium and PyTorch. Implement algorithms from tabular methods to DQN and PPO. |
+| **Midterm Exam** | 15% | Jan 29, 2026 | _Written test covering foundational concepts from Weeks 1-4: MDPs, Bellman Equations, Q-Learning, and Policy Gradients._ |
+| **Assignment 1** | 10% | Feb 13, 2026 | Literature review of assigned papers (2-3 papers) along with code implementation of one of the papers. |
+| **Project Proposal** | 5% | Feb 24, 2026 | Concise document outlining selected research topic, intended environment/dataset, and hypothesis. |
+| **Final Project Paper** | 25% | Mar 24, 2026 | Research paper in conference format (e.g., ICLR style) detailing methodology, experimental setup, results, and discussion. |
+| **Assignment 2 (Peer Review)** | 10% | Mar 31, 2026 | Critical evaluation of peer project reports, providing constructive feedback on technical correctness, clarity, and novelty. |
+| **Final Project Presentation** | 10% | Apr 2, 2026 | 10-minute oral presentation of research findings, methodology, and analysis. |
+
+---
+
+## Tutorial {#tutorial}
+
+| Lab | Lab Date | Due Date | Topic |
+|-----|----------|----------|-------|
+| Lab 1 | Jan 15, 2026 | Jan 20, 2026 | Tabular value-iteration agent on Gridworld |
+| Lab 2 | Jan 23, 2026 | Jan 27, 2026 | Compare MC and TD methods; Q-Learning with ε-greedy |
+| Test | Jan 29, 2026 |  | 90mins test |
+| Skill 1 | Feb 5, 2026 | Not graded | How to review a paper |
+| Lab 3 | Feb 12, 2026 | Feb 17, 2026 | Implement DQN in Gymnasium (CartPole or MountainCar) |
+| Lab 4 | Feb 26, 2026 | Mar 3, 2026 | Train PPO agent on Pendulum-v1 (dm_control) |
+| Lab 5 | Mar 5, 2026 | Mar 10, 2026 | RLHF: LLM fine-tuning with RL |
+| Lab 6 | Mar 12, 2026 | Mar 17, 2026 | Train CNN encoder on Atari frames; visualize latent space/RL for LLM |
+| Skill 2 | Mar 19, 2026 | Not graded | How to write a paper |
+| Demo/Presentation | Mar 26, 2026 |  | Project presentation/Real Robot Demos |
+
+---
+
 ## Final Project {#project}
 
-The course culminates in a capstone research project where students produce a conference-level paper. This is the primary deliverable for the course.
+The course ends in a capstone research project where students produce a conference-level paper. This is the primary deliverable for the course.
 
 ### Project Resources
 
