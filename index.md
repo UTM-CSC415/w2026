@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="container mt-4">
-<div class="card mb-4">
+<div class="card mb-4 shadow-sm">
   <div class="card-body">
     <h2 class="card-title mb-3">Welcome to CSC415H5S</h2>
     <p class="card-text lead">
@@ -34,7 +34,7 @@ permalink: /
   </div>
 </div>
 
----
+<hr class="my-5" id="course-info">
 
 ## Course Information
 
@@ -62,7 +62,7 @@ permalink: /
         <h5 class="mb-0"><i class="fas fa-user-tie"></i> Instructor</h5>
       </div>
       <div class="card-body">
-<p class="mb-2"><strong>Dr. Ameya Pore</strong></p>
+        <p class="mb-2"><strong>Dr. Ameya Pore</strong></p>
         
         <p class="mb-0"><strong>Office Hours:</strong><br>
         Wednesday, 6:00 PM - 7:00 PM<br>
@@ -96,7 +96,7 @@ permalink: /
   </div>
 </div>
 
----
+<hr class="my-5">
 
 ### Learning Outcomes
 
@@ -114,36 +114,7 @@ By the end of this course, students will be able to:
 - **Recommended:** CSC413
 - **Credit Value:** 0.5
 
----
-
-## Announcements
-
-<div style="max-height: 400px; overflow-y: auto; padding-right: 10px;">
-
-<div class="card mb-3">
-  <div class="card-body">
-    <h5 class="card-title">First Tutorial</h5>
-    <p class="card-text">
-      The first tutorial will take place on January 15. There will be no tutorial in Week1.
-    </p>
-    <small class="text-muted">Posted: Jan 3, 2026</small>
-  </div>
-</div>
-
-<div class="card mb-3">
-  <div class="card-body">
-    <h5 class="card-title">Welcome to CSC415!</h5>
-    <p class="card-text">
-      Welcome to Introduction to Reinforcement Learning! This page will be updated regularly with course materials, 
-      announcements, and important information. Please check back frequently for updates.
-    </p>
-    <small class="text-muted">Posted: Course Start Date</small>
-  </div>
-</div>
-
-</div>
-
----
+<hr class="my-5" id="materials">
 
 ## Course Materials
 
@@ -174,7 +145,7 @@ The course draws inspiration from several excellent open-source courses and reso
 - **[Stanford CS224R: Deep Reinforcement Learning](https://cs224r.stanford.edu/)** by Chelsea Finn
 - **[Introduction to Reinforcement Learning](https://amfarahmand.github.io/IntroRL/)** by Amir-massoud Farahmand
 
----
+<hr class="my-5">
 
 ## Assessment & Grading
 
@@ -252,7 +223,7 @@ The course draws inspiration from several excellent open-source courses and reso
 | Skill 2 | Mar 19, 2026 | Not graded | How to write a paper |
 | Demo/Presentation | Mar 26, 2026 |  | Project presentation/Real Robot Demos |
 
----
+<hr class="my-5" id="schedule">
 
 ## Course Schedule
 
@@ -285,7 +256,7 @@ The course draws inspiration from several excellent open-source courses and reso
             <td>Jan 14</td>
             <td>Dynamic programming</td>
             <td>Policy evaluation, Policy iteration, Value iteration</td>
-            <td></td>
+            <td><a href="{{ '/assets/lectures/lecture2.pdf' | relative_url }}">lecture2</a></td>
           </tr>
           <tr>
             <td><strong>3</strong></td>
@@ -370,7 +341,7 @@ The course draws inspiration from several excellent open-source courses and reso
   </div>
 </div>
 
----
+<hr class="my-5">
 
 ## Project Information
 
@@ -427,7 +398,7 @@ The course culminates in a capstone research project where students produce a co
 - **Mar 31, 2026:** Peer Review Due (10%)
 - **Apr 2, 2026:** Final Project Presentation (10%)
 
----
+<hr class="my-5">
 
 ## Course Policies
 
@@ -478,19 +449,19 @@ Please familiarize yourself with the [Code of Behaviour on Academic Matters](htt
 - **Temporary Absence:** Students may use the ACORN Absence Declaration Tool for absences up to 7 consecutive days
 - **Equity and Academic Rights:** The University of Toronto is committed to equity, meaningful inclusion, and respect for diversity
 
----
+<hr class="my-5" id="contact">
 
 ## Contact
 
 For questions about the course:
 
-1. **Check this website** and announcements first
+1. **Check this website** first
 2. **Attend office hours:** Wednesday, 6:00 PM - 7:00 PM (MN3110)
 3. **Email the instructor:** amey.pore@utoronto.ca
    - Please include **[CSC415]** in the subject line
    - Allow 24-48 hours for response during regular business hours
 
----
+<hr class="my-5">
 
 <div class="text-center text-muted mt-4">
   <small>Last updated: {{ site.time | date: "%B %d, %Y" }}</small>

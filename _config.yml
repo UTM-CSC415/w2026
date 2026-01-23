@@ -16,7 +16,7 @@ kramdown:
     block:
       line_numbers: false
 
-# Plugins
+# Plugins (GitHub Pages compatible)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -28,3 +28,4 @@ exclude:
   - README.md
   - vendor
   - .gitignore
+  - .github
