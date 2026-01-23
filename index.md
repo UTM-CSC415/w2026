@@ -65,37 +65,15 @@ _Tuesday 5:15pm-6:15pm Online zoom_
 
 ---
 
-## Course Materials {#materials}
-
-### Required Textbook
-
-**Reinforcement Learning: An Introduction (2nd Edition)**
-
-**Authors:** Richard S. Sutton and Andrew G. Barto  
-**Available online:** [http://incompleteideas.net/book/](http://incompleteideas.net/book/)
-
-This textbook covers foundational theory (MDPs, Bellman equations, TD learning) extensively. Best for Weeks 1–3 of the syllabus (Foundations, MC, TD).
-
-### Additional Resources
-
-The course draws inspiration from several excellent open-source courses and resources:
-
-* **[UCL Course on Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)** by David Silver (DeepMind)
-* **[Stanford CS234: Introduction to Reinforcement Learning](https://www.youtube.com/watch?v=WsvFL-LjA6U&list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX)** by Emma Brunskill
-* **[Stanford CS224R: Deep Reinforcement Learning](https://cs224r.stanford.edu/)** by Chelsea Finn
-* **[Introduction to Reinforcement Learning](https://amfarahmand.github.io/IntroRL/)** by Amir-massoud Farahmand
-
----
-
 ## Grading {#grading}
 
 | Assessment | Weight | Due Date | Description |
 |------------|--------|----------|-------------|
-| **Laboratory Exercises** | 25% | Various dates | 6 lab exercises (top 5 count). Hands-on programming assignments in Python using Gymnasium and PyTorch. Implement algorithms from tabular methods to DQN and PPO. |
+| **Laboratory Exercises** | 25% | Various dates | 6 lab exercises (top 5 count). Programming assignments in Python using Gymnasium and PyTorch. Implement algorithms from tabular methods to DQN and PPO. |
 | **Midterm Exam** | 15% | Jan 29, 2026 | _Written test covering foundational concepts from Weeks 1-4: MDPs, Bellman Equations, Q-Learning, and Policy Gradients._ |
 | **Assignment 1** | 10% | Feb 13, 2026 | Literature review of assigned papers (2-3 papers) along with code implementation of one of the papers. |
 | **Project Proposal** | 5% | Feb 24, 2026 | Concise document outlining selected research topic, intended environment/dataset, and hypothesis. |
-| **Final Project Paper** | 25% | Mar 24, 2026 | Comprehensive research paper in conference format (e.g., ICLR style) detailing methodology, experimental setup, results, and discussion. |
+| **Final Project Paper** | 25% | Mar 24, 2026 | Research paper in conference format (e.g., ICLR style) detailing methodology, experimental setup, results, and discussion. |
 | **Assignment 2 (Peer Review)** | 10% | Mar 31, 2026 | Critical evaluation of peer project reports, providing constructive feedback on technical correctness, clarity, and novelty. |
 | **Final Project Presentation** | 10% | Apr 2, 2026 | 10-minute oral presentation of research findings, methodology, and analysis. |
 
@@ -109,14 +87,14 @@ The course draws inspiration from several excellent open-source courses and reso
 | Skill 1 | Feb 5, 2026 | Not graded | How to review a paper |
 | Lab 3 | Feb 12, 2026 | Feb 17, 2026 | Implement DQN in Gymnasium (CartPole or MountainCar) |
 | Lab 4 | Feb 26, 2026 | Mar 3, 2026 | Train PPO agent on Pendulum-v1 (dm_control) |
-| Lab 5 | Mar 5, 2026 | Mar 10, 2026 | Implement RND agent in MiniGrid or Maze2D |
+| Lab 5 | Mar 5, 2026 | Mar 10, 2026 | RLHF: LLM fine-tuning with RL |
 | Lab 6 | Mar 12, 2026 | Mar 17, 2026 | Train CNN encoder on Atari frames; visualize latent space/RL for LLM |
 | Skill 2 | Mar 19, 2026 | Not graded | How to write a paper |
 | Demo/Presentation | Mar 26, 2026 |  | Project presentation/Real Robot Demos |
 
 ---
 
-## Schedule {#schedule}
+## Course Material and Schedule {#schedule}
 
 | Week | Date | Topic | Key Concepts | Lecture Slides |
 |------|------|-------|--------------|----------------|
@@ -143,7 +121,7 @@ The course culminates in a capstone research project where students produce a co
 ### Project Resources
 
 **Project Guidelines**  
-Comprehensive guidelines for the final project, including format requirements, evaluation criteria, and submission instructions.  
+Guidelines for the final project, including format requirements, evaluation criteria, and submission instructions.  
 [Download Guidelines]({{ '/assets/pdf/csc415_project_guideline.pdf' | relative_url }}){: .btn .btn-primary}
 
 **Project Topics**  
@@ -160,6 +138,28 @@ Instructions for setting up simulation environments for your RL experiments, inc
 * **Mar 24, 2026:** Final Project Paper Due (25%)
 * **Mar 31, 2026:** Peer Review Due (10%)
 * **Apr 2, 2026:** Final Project Presentation (10%)
+
+---
+
+## Course References {#materials}
+
+### Required Textbook
+
+**Reinforcement Learning: An Introduction (2nd Edition)**
+
+**Authors:** Richard S. Sutton and Andrew G. Barto  
+**Available online:** [http://incompleteideas.net/book/](http://incompleteideas.net/book/)
+
+This textbook covers foundational theory (MDPs, Bellman equations, TD learning) extensively. Best for Weeks 1–3 of the syllabus (Foundations, MC, TD).
+
+### Additional Resources
+
+The course draws inspiration from several excellent open-source courses and resources:
+
+* **[UCL Course on Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)** by David Silver (DeepMind)
+* **[Stanford CS234: Introduction to Reinforcement Learning](https://www.youtube.com/watch?v=WsvFL-LjA6U&list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX)** by Emma Brunskill
+* **[Stanford CS224R: Deep Reinforcement Learning](https://cs224r.stanford.edu/)** by Chelsea Finn
+* **[Introduction to Reinforcement Learning](https://amfarahmand.github.io/IntroRL/)** by Amir-massoud Farahmand
 
 ---
 
