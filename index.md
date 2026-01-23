@@ -71,7 +71,7 @@ _Tuesday 5:15pm-6:15pm Online zoom_
 |------|------|-------|--------------|----------------|
 | **1** | Jan 7 | Foundations of Reinforcement Learning | Agent–environment loop, MDP structure, value functions, Bellman equations, biological motivation | [lecture1]({{ '/assets/lectures/lecture1_compressed.pdf' | relative_url }}) |
 | **2** | Jan 14 | Dynamic programming | Policy evaluation, Policy iteration, Value iteration | [lecture2]({{ '/assets/lectures/lecture2.pdf' | relative_url }}) |
-| **3** | Jan 21 | Monte Carlo & Temporal-Difference & Q-Learning | MC prediction (first/every visit), TD(0), TD(λ), SARSA, Q-Learning | |
+| **3** | Jan 21 | Monte Carlo & Temporal-Difference & Q-Learning | MC prediction (first/every visit), TD(0), TD(λ), SARSA, Q-Learning | [lecture3]({{ '/assets/lectures/lecture3_compressed.pdf' | relative_url }}) |
 | **4** | Jan 28 | Function Approximation, DQN & Policy Gradients | Deep Q-Networks (DQN); Policy-Gradient Theorem, REINFORCE, Actor-Critic methods | |
 | **5** | Feb 4 | Policy Gradient Methods (PPO) | REINFORCE → A2C → PPO, trust-region optimization, GAE, training stability | |
 | **6** | Feb 11 | Exploration in RL | Entropy regularization, intrinsic motivation (ICM, RND), robustness and generalization | |
