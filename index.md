@@ -4,10 +4,7 @@ title: CSC415 - Introduction to Reinforcement Learning
 permalink: /
 ---
 
-<div class="page-header" id="overview">
-  <h1>Winter 2026 - CSC415: Introduction to Reinforcement Learning</h1>
-  <div class="subtitle">University of Toronto Mississauga</div>
-</div>
+# Winter 2026 - CSC415: Introduction to Reinforcement Learning {#overview}
 
 ## Course Overview
 

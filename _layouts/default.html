@@ -7,20 +7,19 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
     
+    <!-- Atkinson Hyperlegible Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+    
     <style>
-      /* Quarto-inspired styling to match CSC2626 */
+      /* Exact CSC2626 Quarto Template Colors and Styling */
       :root {
-        --quarto-body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        --quarto-heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        --quarto-code-font: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-        --quarto-body-color: #222;
-        --quarto-body-bg: #fff;
-        --quarto-sidebar-bg: #f8f8f8;
-        --quarto-sidebar-fg: #555;
-        --quarto-sidebar-active: #447099;
-        --quarto-border-color: #dee2e6;
-        --quarto-link-color: #447099;
-        --quarto-link-hover-color: #2c5282;
+        --website-bg: #D9E3E4;
+        --heading-color: #5B888C;
+        --body-color: #222;
+        --sidebar-bg: #D9E3E4;
+        --border-color: #dee2e6;
+        --link-color: #2a76dd;
+        --link-hover: #5692e4;
       }
       
       * {
@@ -30,11 +29,11 @@
       }
       
       body {
-        font-family: var(--quarto-body-font);
+        font-family: "Atkinson Hyperlegible", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         font-size: 16px;
         line-height: 1.6;
-        color: var(--quarto-body-color);
-        background-color: var(--quarto-body-bg);
+        color: var(--body-color);
+        background-color: var(--website-bg);
         margin: 0;
         padding: 0;
       }
@@ -44,11 +43,11 @@
         min-height: 100vh;
       }
       
-      /* Sidebar - matches Quarto style */
+      /* Sidebar - exact CSC2626 styling */
       .sidebar {
         width: 250px;
-        background-color: var(--quarto-sidebar-bg);
-        border-right: 1px solid var(--quarto-border-color);
+        background-color: var(--sidebar-bg);
+        border-right: 1px solid var(--border-color);
         padding: 1.5rem 1rem;
         position: fixed;
         height: 100vh;
@@ -57,19 +56,21 @@
       }
       
       .sidebar-title {
-        font-family: var(--quarto-heading-font);
+        font-family: "Atkinson Hyperlegible", sans-serif;
         font-size: 1.25rem;
         font-weight: 600;
-        color: var(--quarto-body-color);
+        color: var(--body-color);
         margin-bottom: 0.5rem;
         line-height: 1.2;
+        text-align: center;
       }
       
       .sidebar-subtitle {
         font-size: 0.875rem;
-        color: var(--quarto-sidebar-fg);
+        color: #555;
         margin-bottom: 1.5rem;
         line-height: 1.4;
+        text-align: center;
       }
       
       .sidebar-nav {
@@ -85,7 +86,7 @@
       .sidebar-nav a {
         display: block;
         padding: 0.5rem 0.75rem;
-        color: var(--quarto-sidebar-fg);
+        color: #555;
         text-decoration: none;
         font-size: 0.9375rem;
         border-radius: 4px;
@@ -93,12 +94,12 @@
       }
       
       .sidebar-nav a:hover {
-        background-color: rgba(68, 112, 153, 0.1);
-        color: var(--quarto-link-color);
+        background-color: rgba(91, 136, 140, 0.1);
+        color: var(--heading-color);
       }
       
       .sidebar-nav a.active {
-        background-color: var(--quarto-sidebar-active);
+        background-color: var(--heading-color);
         color: white;
         font-weight: 500;
       }
@@ -109,45 +110,46 @@
         flex: 1;
         padding: 3rem 4rem;
         max-width: 900px;
+        background-color: white;
       }
       
       h1 {
-        font-family: var(--quarto-heading-font);
+        font-family: "Atkinson Hyperlegible", sans-serif;
         font-size: 2rem;
         font-weight: 600;
-        color: var(--quarto-body-color);
+        color: var(--heading-color);
         margin-top: 0;
         margin-bottom: 1rem;
         line-height: 1.2;
       }
       
       h2 {
-        font-family: var(--quarto-heading-font);
+        font-family: "Atkinson Hyperlegible", sans-serif;
         font-size: 1.5rem;
         font-weight: 600;
-        color: var(--quarto-body-color);
+        color: var(--heading-color);
         margin-top: 2.5rem;
         margin-bottom: 1rem;
         line-height: 1.3;
         padding-bottom: 0.5rem;
-        border-bottom: 1px solid var(--quarto-border-color);
+        border-bottom: 1px solid var(--border-color);
       }
       
       h3 {
-        font-family: var(--quarto-heading-font);
+        font-family: "Atkinson Hyperlegible", sans-serif;
         font-size: 1.25rem;
         font-weight: 600;
-        color: var(--quarto-body-color);
+        color: var(--body-color);
         margin-top: 2rem;
         margin-bottom: 0.75rem;
         line-height: 1.3;
       }
       
       h4 {
-        font-family: var(--quarto-heading-font);
+        font-family: "Atkinson Hyperlegible", sans-serif;
         font-size: 1.1rem;
         font-weight: 600;
-        color: var(--quarto-body-color);
+        color: var(--body-color);
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
         line-height: 1.3;
@@ -169,12 +171,12 @@
       }
       
       a {
-        color: var(--quarto-link-color);
+        color: var(--link-color);
         text-decoration: none;
       }
       
       a:hover {
-        color: var(--quarto-link-hover-color);
+        color: var(--link-hover);
         text-decoration: underline;
       }
       
@@ -186,20 +188,20 @@
       }
       
       table thead {
-        border-bottom: 2px solid var(--quarto-border-color);
+        border-bottom: 2px solid var(--border-color);
       }
       
       table th {
         text-align: left;
         font-weight: 600;
         padding: 0.75rem;
-        color: var(--quarto-body-color);
-        border-bottom: 2px solid var(--quarto-border-color);
+        color: var(--body-color);
+        border-bottom: 2px solid var(--border-color);
       }
       
       table td {
         padding: 0.75rem;
-        border-bottom: 1px solid var(--quarto-border-color);
+        border-bottom: 1px solid var(--border-color);
       }
       
       table tbody tr:hover {
@@ -208,7 +210,7 @@
       
       hr {
         border: none;
-        border-top: 1px solid var(--quarto-border-color);
+        border-top: 1px solid var(--border-color);
         margin: 2rem 0;
       }
       
@@ -235,7 +237,7 @@
         display: inline-block;
         padding: 0.5rem 1rem;
         margin: 0.25rem 0.5rem 0.25rem 0;
-        background-color: var(--quarto-link-color);
+        background-color: var(--link-color);
         color: white;
         text-decoration: none;
         border-radius: 4px;
@@ -245,13 +247,13 @@
       }
       
       .btn:hover {
-        background-color: var(--quarto-link-hover-color);
+        background-color: var(--link-hover);
         color: white;
         text-decoration: none;
       }
       
       code {
-        font-family: var(--quarto-code-font);
+        font-family: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         font-size: 0.875em;
         background-color: #f5f5f5;
         padding: 0.2em 0.4em;
@@ -269,10 +271,11 @@
       .footer {
         margin-top: 4rem;
         padding-top: 2rem;
-        border-top: 1px solid var(--quarto-border-color);
+        border-top: 1px solid var(--border-color);
         text-align: center;
-        color: var(--quarto-sidebar-fg);
+        color: #555;
         font-size: 0.875rem;
+        background-color: var(--website-bg);
       }
       
       /* Responsive */
@@ -285,7 +288,7 @@
           position: relative;
           height: auto;
           border-right: none;
-          border-bottom: 1px solid var(--quarto-border-color);
+          border-bottom: 1px solid var(--border-color);
         }
         .main-content {
           margin-left: 0;
@@ -326,6 +329,7 @@
         
         <div class="footer">
           <p>© Copyright 2026, Ameya Pore | University of Toronto Mississauga</p>
+          <p>This page is built with ❤️ and Jekyll.</p>
         </div>
       </main>
     </div>
