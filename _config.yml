@@ -1,0 +1,30 @@
+# Site settings
+title: CSC415 - Introduction to Reinforcement Learning
+description: Course website for CSC415H5S Introduction to Reinforcement Learning - Winter 2026
+url: https://utm-csc415.github.io
+baseurl: /w2026
+
+# Jekyll settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Excludes
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .gitignore
