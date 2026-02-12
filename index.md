@@ -80,7 +80,6 @@ _Tuesday 5:15pm-6:15pm Online zoom_
 | **9** | Mar 11 | RL for Robotics (Embodied RL) | Continuous control policies, sim-to-real transfer, domain randomization, hybrid IL + RL strategies | |
 | **10** | Mar 18 | RL for LLMs and Alignment (RLHF) | Preference modeling, reward models, PPO/DPO/RLAIF, alignment issues, reward mis-specification | |
 | **11** | Mar 28 | World Models & Latent Planning | Latent dynamics models (VAE, RSSM, Dreamer), imagination rollouts, planning in latent space | |
-<!-- | **11** | Mar 28 | Sequence Modelling in RL | Recurrent neural networks (RNNs, LSTMs, GRUs) for RL, Transformers in RL, Decision Transformers, trajectory transformers, history encoding, temporal dependencies, memory-augmented RL | | -->
 | **12** | Apr 2 | Final Project Presentations | Student presentations of term projects (oral defense) | |
 | **13** _(Optional)_ | Apr 9 | Safe-RL and Hierarchical RL | Safe MDPs, constraint optimization, Lyapunov-based safety, CPO, risk-sensitive criteria, hierarchical task decomposition, options framework, HRL architectures | |
 
