@@ -71,15 +71,16 @@ _Tuesday 5:15pm-6:15pm Online zoom_
 |------|------|-------|--------------|----------------|
 | **1** | Jan 7 | Foundations of Reinforcement Learning | Agent–environment loop, MDP structure, value functions, Bellman equations, biological motivation | [lecture1]({{ '/assets/lectures/lecture1_compressed.pdf' | relative_url }}) |
 | **2** | Jan 14 | Dynamic programming | Policy evaluation, Policy iteration, Value iteration | [lecture2]({{ '/assets/lectures/lecture2_compressed.pdf' | relative_url }}) |
-| **3** | Jan 21 | Monte Carlo & Temporal-Difference & Q-Learning | MC prediction (first/every visit), TD(0), TD(λ), SARSA, Q-Learning | [lecture3]({{ '/assets/lectures/lecture3_compressed.pdf' | relative_url }}) |
-| **4** | Jan 28 | Function Approximation, DQN & Policy Gradients | Deep Q-Networks (DQN); Policy-Gradient Theorem, REINFORCE, Actor-Critic methods | [lecture4]({{ '/assets/lectures/lecture4_compressed.pdf' | relative_url }}) |
-| **5** | Feb 4 | Policy Gradient Methods (PPO) | REINFORCE → A2C → PPO, trust-region optimization, GAE, training stability | [lecture5]({{ '/assets/lectures/lecture5_compressed.pdf' | relative_url }}) |
-| **6** | Feb 11 | Exploration in RL | Entropy regularization, intrinsic motivation (ICM, RND), robustness and generalization | [lecture6]({{ '/assets/lectures/lecture6_compressed.pdf' | relative_url }}) |
-| **7** | Feb 25 | Regularization and Representation Learning | Contrastive learning (CURL, BYOL-Explore), predictive state representations, auxiliary tasks | |
-| **8** | Mar 4 | RL for Robotics (Embodied RL) | Continuous control policies, sim-to-real transfer, domain randomization, hybrid IL + RL strategies | |
-| **9** | Mar 11 | World Models & Latent Planning | Latent dynamics models (VAE, RSSM, Dreamer), imagination rollouts, planning in latent space | |
+| **3** | Jan 21 | Monte Carlo & Temporal-Difference | MC prediction (first/every visit), TD(0), SARSA, Q-Learning | [lecture3]({{ '/assets/lectures/lecture3_compressed.pdf' | relative_url }}) |
+| **4** | Jan 28 | Function Approximation | Value function approximation, Off-policy learning, Deep Q-Networks (DQN) | [lecture4]({{ '/assets/lectures/lecture4_compressed.pdf' | relative_url }}) |
+| **5** | Feb 4 | Policy Gradient | REINFORCE, A3C | [lecture5]({{ '/assets/lectures/lecture5_compressed.pdf' | relative_url }}) |
+| **6** | Feb 11 | Advanced Policy Gradient | A3C → PPO, trust-region optimization, GAE, training stability | [lecture6]({{ '/assets/lectures/lecture6_compressed.pdf' | relative_url }}) |
+| **7** | Feb 25 | Exploration in RL | Intrinsic motivation (ICM, RND), robustness and generalization | |
+| **8** | Mar 4 | Representation Learning | Contrastive learning (CURL), Data augmentation (DrQ-v2), Auxiliary tasks | |
+| **9** | Mar 11 | RL for Robotics (Embodied RL) | Continuous control policies, sim-to-real transfer, domain randomization, hybrid IL + RL strategies | |
 | **10** | Mar 18 | RL for LLMs and Alignment (RLHF) | Preference modeling, reward models, PPO/DPO/RLAIF, alignment issues, reward mis-specification | |
-| **11** | Mar 28 | Sequence Modelling in RL | Recurrent neural networks (RNNs, LSTMs, GRUs) for RL, Transformers in RL, Decision Transformers, trajectory transformers, history encoding, temporal dependencies, memory-augmented RL | |
+| **11** | Mar 28 | World Models & Latent Planning | Latent dynamics models (VAE, RSSM, Dreamer), imagination rollouts, planning in latent space | |
+<!-- | **11** | Mar 28 | Sequence Modelling in RL | Recurrent neural networks (RNNs, LSTMs, GRUs) for RL, Transformers in RL, Decision Transformers, trajectory transformers, history encoding, temporal dependencies, memory-augmented RL | | -->
 | **12** | Apr 2 | Final Project Presentations | Student presentations of term projects (oral defense) | |
 | **13** _(Optional)_ | Apr 9 | Safe-RL and Hierarchical RL | Safe MDPs, constraint optimization, Lyapunov-based safety, CPO, risk-sensitive criteria, hierarchical task decomposition, options framework, HRL architectures | |
 
@@ -90,11 +91,11 @@ _Tuesday 5:15pm-6:15pm Online zoom_
 | Assessment | Weight | Due Date | Description |
 |------------|--------|----------|-------------|
 | **Laboratory Exercises** | 25% | Various dates | 6 lab exercises (top 5 count). Programming assignments in Python using Gymnasium and PyTorch. Implement algorithms from tabular methods to DQN and PPO. |
-| **Midterm Exam** | 15% | Jan 29, 2026 | _Written test covering foundational concepts from Weeks 1-4: MDPs, Bellman Equations, Q-Learning, and Policy Gradients._ |
-| **Assignment 1** | 10% | Feb 13, 2026 | Literature review of assigned papers (2-3 papers) along with code implementation of one of the papers. |
-| **Project Proposal** | 5% | Feb 24, 2026 | Concise document outlining selected research topic, intended environment/dataset, and hypothesis. |
+| **Midterm Exam** | 15% | Jan 29, 2026 | _Written test covering concepts from Weeks 1-4: MDPs, Bellman Equations, Q-Learning, and Policy Gradients._ |
+| **Assignment 1** | 10% | Feb 13, 2026 | Literature review of assigned papers (2 papers) along with code implementation of one of the papers. |
+| **Project Proposal** | 5% | Feb 24, 2026 | Document outlining selected research topic, intended environment/dataset, and hypothesis. |
 | **Final Project Paper** | 25% | Mar 24, 2026 | Research paper in conference format (e.g., ICLR style) detailing methodology, experimental setup, results, and discussion. |
-| **Assignment 2 (Peer Review)** | 10% | Mar 31, 2026 | Critical evaluation of peer project reports, providing constructive feedback on technical correctness, clarity, and novelty. |
+| **Assignment 2 (Peer Review)** | 10% | Mar 31, 2026 | Evaluation of peer project reports, providing constructive feedback on technical correctness, clarity, and novelty. |
 | **Final Project Presentation** | 10% | Apr 2, 2026 | 10-minute oral presentation of research findings, methodology, and analysis. |
 
 ---
