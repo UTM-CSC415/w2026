@@ -75,7 +75,7 @@ _Tuesday 5:15pm-6:15pm Online zoom_
 | **4** | Jan 28 | Function Approximation | Value function approximation, Off-policy learning, Deep Q-Networks (DQN) | [lecture4]({{ '/assets/lectures/lecture4_compressed.pdf' | relative_url }}) |
 | **5** | Feb 4 | Policy Gradient | REINFORCE, A3C | [lecture5]({{ '/assets/lectures/lecture5_compressed.pdf' | relative_url }}) |
 | **6** | Feb 11 | Advanced Policy Gradient | A3C → PPO, trust-region optimization, GAE, training stability | [lecture6]({{ '/assets/lectures/lecture6_compressed.pdf' | relative_url }}) |
-| **7** | Feb 25 | Exploration in RL | Intrinsic motivation (ICM, RND), robustness and generalization | |
+| **7** | Feb 25 | Exploration in RL | Multi-arm Bandits, Regret, UCB, Thompson sampling, Intrinsic motivation (ICM, RND) | [lecture7]({{ '/assets/lectures/lecture7_compressed.pdf' | relative_url }}) |
 | **8** | Mar 4 | Representation Learning | Contrastive learning (CURL), Data augmentation (DrQ-v2), Auxiliary tasks | |
 | **9** | Mar 11 | RL for Robotics (Embodied RL) | Continuous control policies, sim-to-real transfer, domain randomization, hybrid IL + RL strategies | |
 | **10** | Mar 18 | RL for LLMs and Alignment (RLHF) | Preference modeling, reward models, PPO/DPO/RLAIF, alignment issues, reward mis-specification | |
