@@ -78,7 +78,7 @@ _Tuesday 5:15pm-6:15pm Online zoom_
 | **7** | Feb 25 | Exploration in RL | Multi-arm Bandits, Regret, UCB, Thompson sampling, Intrinsic motivation (ICM, RND) | [lecture7]({{ '/assets/lectures/lecture7_compressed.pdf' | relative_url }}) |
 | **8** | Mar 4 | Representation Learning | Variational Autoencoders, Invariant and disentangled representations, Dreamer | [lecture8]({{ '/assets/lectures/lecture8_compressed.pdf' | relative_url }}) |
 | **9** | Mar 11 | RLHF | Preference learning | [lecture9]({{ '/assets/lectures/lecture9_compressed.pdf' | relative_url }}) |
-| **10** | Mar 18 | RL for Robotics (Embodied RL) | Continuous control policies, sim-to-real transfer, domain randomization, hybrid IL + RL strategies | [lecture10]({{ '/assets/lectures/lecture9_compressed.pdf' | relative_url }}) |
+| **10** | Mar 18 | RL for Robotics (Embodied RL) | Continuous control policies, sim-to-real transfer, domain randomization, hybrid IL + RL strategies | [lecture10]({{ '/assets/lectures/lecture10_compressed.pdf' | relative_url }}) |
 | **11** | Mar 28 | Guest Lecture | Direct Policy Optimization (DPO), GRPO | |
 | **12** | Apr 2 | Final Project Presentations | Student presentations of term projects (oral defense) | |
 | **13** _(Optional)_ | Apr 9 | Safe-RL and Hierarchical RL | Safe MDPs, constraint optimization, Lyapunov-based safety, CPO, risk-sensitive criteria, hierarchical task decomposition, options framework, HRL architectures | |
