@@ -89,12 +89,12 @@ _Tuesday 5:15pm-6:15pm Online zoom_
 
 | Assessment | Weight | Due Date | Description |
 |------------|--------|----------|-------------|
-| **Laboratory Exercises** | 25% | Various dates | 6 lab exercises (top 5 count). Programming assignments in Python using Gymnasium and PyTorch. Implement algorithms from tabular methods to DQN and PPO. |
-| **Midterm Exam** | 15% | Jan 29, 2026 | _Written test covering concepts from Weeks 1-4: MDPs, Bellman Equations, Q-Learning, and Policy Gradients._ |
+| **Laboratory Exercises** | 25% | Various dates | 6 lab exercises (top 5 count). Programming assignments to implement algorithms from tabular methods to DQN and PPO. |
+| **Midterm Exam 1** | 15% | Jan 29, 2026 | _Written test covering concepts from Weeks 1-4: MDPs, Bellman Equations, Q-Learning, and Policy Gradients._ |
 | **Assignment 1** | 10% | Feb 13, 2026 | Literature review of assigned papers (2 papers) along with code implementation of one of the papers. |
 | **Project Proposal** | 5% | Feb 24, 2026 | Document outlining selected research topic, intended environment/dataset, and hypothesis. |
-| **Final Project Paper** | 25% | Mar 24, 2026 | Research paper in conference format (e.g., ICLR style) detailing methodology, experimental setup, results, and discussion. |
-| **Assignment 2 (Peer Review)** | 10% | Mar 31, 2026 | Evaluation of peer project reports, providing constructive feedback on technical correctness, clarity, and novelty. |
+| **Final Project Paper** | 25% | Apr 7, 2026 | Research paper in conference format (e.g., ICLR style) detailing methodology, experimental setup, results, and discussion. |
+| **Midterm Exam 2** | 10% | Mar 19, 2026 | Multiple choice questions with more than single answer |
 | **Final Project Presentation** | 10% | Apr 2, 2026 | 10-minute oral presentation of research findings, methodology, and analysis. |
 
 ---
